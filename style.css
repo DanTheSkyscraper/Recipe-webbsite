@@ -2,7 +2,6 @@
 body{
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
     font-style: georgia;
     margin: 0;
 }
@@ -29,12 +28,7 @@ footer{
     place-items: center;
 }
 
-.three-col-layout-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.three-col-layout-instruction{
+.three-col-layout{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 15px;
@@ -50,11 +44,7 @@ footer{
 }
 
 @media (max-width: 600px){
-    .three-col-layout-main{
-        display: block;
-    }
-
-    .three-col-layout-instruction{
+    .three-col-layout{
         display: block;
     }
 }
@@ -66,7 +56,7 @@ img.recipe-10-main{
 
 img.recipe-image{
     height: 100%;
-    width: 400px;
+    width: 100%;
 }
 
 .ingredient-title{
