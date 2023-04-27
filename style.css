@@ -50,7 +50,11 @@ footer{
 }
 
 @media (max-width: 600px){
-    .three-col-layout{
+    .three-col-layout-main{
+        display: block;
+    }
+
+    .three-col-layout-instruction{
         display: block;
     }
 }
