@@ -29,9 +29,15 @@ footer{
     place-items: center;
 }
 
-.three-col-layout{
+.three-col-layout-main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.three-col-layout-instruction{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
 }
 
 .recipe-introduction{
@@ -56,7 +62,7 @@ img.recipe-10-main{
 
 img.recipe-image{
     height: 100%;
-    width: 100%;
+    width: 400px;
 }
 
 .ingredient-title{
@@ -73,12 +79,25 @@ img.recipe-image{
     text-decoration: underline;
     font-size: 18px;
     font-weight: bold;
+    font-style: georgia;
 }
 
 .secondary-ingredient-list{
     text-decoration: underline;
     font-size: 18px;
     font-weight: bold;
+    font-style: georgia;
+}
+
+.stepbystep-instruction{
+    font-style: georgia;
+    max-width: 76ch;
+}
+
+.stepbystep-title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 .contact-title{
